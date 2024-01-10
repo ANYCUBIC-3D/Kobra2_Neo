@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "e:/Project/027/Marlin-bugfix-2.1.x/.pio/build/ac_tri_f1/firmware.elf",
+            "projectEnvName": "ac_tri_f1",
+            "toolchainBinDir": "C:/Users/tanjipei/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/tanjipei/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "e:/Project/027/Marlin-bugfix-2.1.x/.pio/build/ac_tri_f1/firmware.elf",
+            "projectEnvName": "ac_tri_f1",
+            "toolchainBinDir": "C:/Users/tanjipei/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/tanjipei/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "e:/Project/027/Marlin-bugfix-2.1.x/.pio/build/ac_tri_f1/firmware.elf",
+            "projectEnvName": "ac_tri_f1",
+            "toolchainBinDir": "C:/Users/tanjipei/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/tanjipei/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "loadMode": "manual"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "memory": "cpp",
+        "random": "cpp",
+        "optional": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "cmath": "cpp",
+        "mutex": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "bootloader.h": "c",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp",
+        "numeric": "cpp"
+    }
+}

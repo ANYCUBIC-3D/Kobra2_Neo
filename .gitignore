@@ -52,6 +52,10 @@ project/*.bin
 # define exception below if needed
 *.ini
 
+# necesseary files
+!platformio.ini
+!ini
+
 # Backup files
 *.bak
 *.back
